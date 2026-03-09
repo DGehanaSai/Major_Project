@@ -1,0 +1,162 @@
+export const translations = {
+    en: {
+        appTitle: "AgriVision AIAdvisor",
+        predict: "Predict Yield",
+        analyze: "Analyze & Predict",
+        analyzing: "Analyzing...",
+        temp: "Temperature (°C)",
+        rain: "Rainfall (mm)",
+        ndvi: "NDVI (Vegetation Index)",
+        nitrogen: "Nitrogen (kg/ha)",
+        ph: "Soil pH",
+        crop: "Crop Type",
+        soil: "Soil Type",
+        crops: {
+            rice: "Rice", maize: "Maize", wheat: "Wheat", cotton: "Cotton"
+        },
+        soils: {
+            clay: "Clay", sandy: "Sandy", loam: "Loam", chalky: "Chalky"
+        },
+        col_rain: "Rain",
+        yieldLabel: "Yield",
+        resultTitle: "Predicted Yield",
+        unit: "kg/acre",
+        chartTitle: "Regional Yield Trends",
+        speechStart: "Reading result...",
+        advisoryTitle: "AI Advisory",
+
+        // Contextual Advisories
+        ADV_YIELD_LOW: "Projected yield is lower than average.",
+        ADV_YIELD_HIGH: "Excellent conditions! High yield projected.",
+        ADV_YIELD_AVG: "Yield is expected to be average.",
+        ADV_NITROGEN_LOW: "Nitrogen is low. Consider applying urea.",
+        ADV_NITROGEN_HIGH: "Nitrogen is too high. Reduce fertilizer usage.",
+        ADV_PH_LOW: "Soil is acidic. Apply lime.",
+        ADV_PH_HIGH: "Soil is alkaline. Apply gypsum.",
+        ADV_RICE_RAIN_LOW: "Insufficient rain for Rice. Irrigation needed.",
+        ADV_NDVI_LOW: "Plant health low. Check for pests.",
+        adv_low: "Yield is projected to be lower than average. Consider checking soil nitrogen levels and ensuring consistent irrigation.",
+        adv_high: "Excellent conditions! Projected yield looks high. Maintain current crop management practices.",
+        adv_normal: "Conditions are stable. Yield is expected to be average. Regular monitoring recommended.",
+    },
+    hi: {
+        appTitle: "कृषि दृष्टि एआई सलाहकार",
+        predict: "फसल उपज अनुमान",
+        analyze: "विश्लेषण और अनुमान",
+        analyzing: "विश्लेषण कर रहा है...",
+        temp: "तापमान (°C)",
+        rain: "वर्षा (mm)",
+        ndvi: "NDVI (वनस्पति सूचकांक)",
+        nitrogen: "नाइट्रोजन (kg/ha)",
+        ph: "मिट्टी का pH",
+        crop: "फसल का प्रकार",
+        soil: "मिट्टी का प्रकार",
+        crops: {
+            rice: "धान (Rice)", maize: "मक्का (Maize)", wheat: "गेहूं (Wheat)", cotton: "कपास (Cotton)"
+        },
+        soils: {
+            clay: "चिकनी मिट्टी (Clay)", sandy: "रेतीली मिट्टी (Sandy)", loam: "दोमट मिट्टी (Loam)", chalky: "खड़िया मिट्टी (Chalky)"
+        },
+        col_rain: "वर्षा",
+        yieldLabel: "उपज",
+        resultTitle: "अनुमानित उपज",
+        unit: "किग्रा/एकड़",
+        chartTitle: "क्षेत्रीय उपज रुझान",
+        speechStart: "परिणाम पढ़ रहा है...",
+        advisoryTitle: "एआई सलाह",
+
+        // Contextual Advisories
+        ADV_YIELD_LOW: "अनुमानित उपज औसत से कम है।",
+        ADV_YIELD_HIGH: "उत्कृष्ट स्थिति! उच्च उपज की संभावना है।",
+        ADV_YIELD_AVG: "उपज औसत रहने की उम्मीद है।",
+        ADV_NITROGEN_LOW: "नाइट्रोजन कम है। यूरिया का प्रयोग करें।",
+        ADV_NITROGEN_HIGH: "नाइट्रोजन बहुत अधिक है। उर्वरक कम करें।",
+        ADV_PH_LOW: "मिट्टी अम्लीय है। चूना डालें।",
+        ADV_PH_HIGH: "मिट्टी क्षारीय है। जिप्सम डालें।",
+        ADV_RICE_RAIN_LOW: "धान के लिए बारिश अपर्याप्त है। सिंचाई करें।",
+        ADV_NDVI_LOW: "पौधों का स्वास्थ्य कमजोर है। कीटों की जाँच करें।",
+        adv_low: "उपज औसत से कम होने का अनुमान है। मिट्टी में नाइट्रोजन के स्तर की जाँच करें और सिंचाई सुनिश्चित करें।",
+        adv_high: "उत्कृष्ट स्थिति! अनुमानित उपज उच्च है। वर्तमान फसल प्रबंधन बनाए रखें।",
+        adv_normal: "स्थितियां स्थिर हैं। उपज औसत रहने की उम्मीद है। नियमित निगरानी की सिफारिश की जाती है।",
+    },
+    te: {
+        appTitle: "అగ్రి విజన్ AI సలహాదారు",
+        predict: "దిగుబడి అంచనా",
+        analyze: "విశ్లేషించు & అంచనా వేయండి",
+        analyzing: "విశ్లేషిస్తోంది...",
+        temp: "ఉష్ణోగ్రత (°C)",
+        rain: "వర్షపాతం (mm)",
+        ndvi: "NDVI (వృక్ష సూచిక)",
+        nitrogen: "నైట్రోజన్ (kg/ha)",
+        ph: "నేల pH",
+        crop: "పంట రకం",
+        soil: "నేల రకం",
+        crops: {
+            rice: "వరి (Rice)", maize: "మొక్కజొన్న (Maize)", wheat: "గోధుమ (Wheat)", cotton: "పత్తి (Cotton)"
+        },
+        soils: {
+            clay: "బంకమట్టి (Clay)", sandy: "ఇసుక నేల (Sandy)", loam: "మట్టి నేల (Loam)", chalky: "సుద్ద నేల (Chalky)"
+        },
+        col_rain: "వర్షం",
+        yieldLabel: "దిగుబడి",
+        resultTitle: "అంచనా వేసిన దిగుబడి",
+        unit: "కిలోలు/ఎకరా",
+        chartTitle: "ప్రాంతీయ దిగుబడి పోకడలు",
+        speechStart: "ఫలితాన్ని చదువుతోంది...",
+        advisoryTitle: "AI సలహా",
+
+        // Contextual Advisories
+        ADV_YIELD_LOW: "అంచనా వేసిన దిగుబడి సగటు కంటే తక్కువగా ఉంది.",
+        ADV_YIELD_HIGH: "అద్భుతమైన పరిస్థితులు! అధిక దిగుబడి అంచనా.",
+        ADV_YIELD_AVG: "దిగుబడి సగటుగా ఉంటుందని అంచనా.",
+        ADV_NITROGEN_LOW: "నైట్రోజన్ తక్కువగా ఉంది. యూరియా వేయండి.",
+        ADV_NITROGEN_HIGH: "నైట్రోజన్ చాలా ఎక్కువగా ఉంది. ఎరువులు తగ్గించండి.",
+        ADV_PH_LOW: "నేల ఆమ్లంగా ఉంది. సున్నం వేయండి.",
+        ADV_PH_HIGH: "నేల క్షారంగా ఉంది. జిప్సం వేయండి.",
+        ADV_RICE_RAIN_LOW: "వరికి వర్షం సరిపోదు. నీటిపారుదల అవసరం.",
+        ADV_NDVI_LOW: "మొక్కల ఆరోగ్యం బాగోలేదు. తెగుళ్లు ఉన్నాయో చూడండి.",
+        adv_low: "దిగుబడి సగటు కంటే తక్కువగా ఉంటుందని అంచనా. నేల నైట్రోజన్ స్థాయిలను తనిఖీ చేయండి మరియు నీటిపారుదలని నిర్ధారించుకోండి.",
+        adv_high: "అద్భుతమైన పరిస్థితులు! అంచనా వేసిన దిగుబడి ఎక్కువగా ఉంది. ప్రస్తుత పంట నిర్వహణను కొనసాగించండి.",
+        adv_normal: "పరిస్థితులు స్థిరంగా ఉన్నాయి. దిగుబడి సగటుగా ఉంటుందని అంచనా. క్రమం తప్పకుండా పర్యవేక్షించడం మంచిది.",
+    },
+    ta: {
+        appTitle: "அக்ரி விஷன் AI ஆலோசகர்",
+        predict: "மகசூல் கணிப்பு",
+        analyze: "பகுப்பாய்வு & கணிப்பு",
+        analyzing: "பகுப்பாய்வு செய்கிறது...",
+        temp: "வெப்பநிலை (°C)",
+        rain: "மழைப்பொழிவு (mm)",
+        ndvi: "NDVI (தாவர குறியீடு)",
+        nitrogen: "நைட்ரஜன் (kg/ha)",
+        ph: "மண் pH",
+        crop: "பயிர் வகை",
+        soil: "மண் வகை",
+        crops: {
+            rice: "அரிசி (Rice)", maize: "சோளம் (Maize)", wheat: "கோதுமை (Wheat)", cotton: "பருத்தி (Cotton)"
+        },
+        soils: {
+            clay: "களிமண் (Clay)", sandy: "மணல் மண் (Sandy)", loam: "வண்டல் மண் (Loam)", chalky: "சுண்ணாம்பு மண் (Chalky)"
+        },
+        col_rain: "மழை",
+        yieldLabel: "மகசூல்",
+        resultTitle: "கணிக்கப்பட்ட மகசூல்",
+        unit: "கிலோ/ஏக்கர்",
+        chartTitle: "பிராந்திய மகசூல் போக்குகள்",
+        speechStart: "முடிவை வாசிக்கிறது...",
+        advisoryTitle: "AI ஆலோசனை",
+
+        // Contextual Advisories
+        ADV_YIELD_LOW: "மகசூல் குறைவாக இருக்கும் என எதிர்பார்க்கப்படுகிறது.",
+        ADV_YIELD_HIGH: "சிறந்த நிலைமைகள்! அதிக மகசூல் எதிர்பார்க்கப்படுகிறது.",
+        ADV_YIELD_AVG: "மகசூல் சராசரியாக இருக்கும்.",
+        ADV_NITROGEN_LOW: "நைட்ரஜன் குறைவாக உள்ளது. யூரியா பயன்படுத்தவும்.",
+        ADV_NITROGEN_HIGH: "நைட்ரஜன் மிக அதிகமாக உள்ளது. உரத்தை குறைக்கவும்.",
+        ADV_PH_LOW: "மண் அமிலத்தன்மை கொண்டது. சுண்ணாம்பு சேர்க்கவும்.",
+        ADV_PH_HIGH: "மண் காரத்தன்மை கொண்டது. ஜிப்சம் சேர்க்கவும்.",
+        ADV_RICE_RAIN_LOW: "நெற்பயிருக்கு மழை போதவில்லை. நீர்ப்பாசனம் தேவை.",
+        ADV_NDVI_LOW: "பயிர் ஆரோக்கியம் குறைவாக உள்ளது. பூச்சிகளை சோதிக்கவும்.",
+        adv_low: "மகசூல் சராசரிக்கு குறைவாக இருக்கும் என எதிர்பார்க்கப்படுகிறது. மண் நைட்ரஜன் அளவை சரிப்பார்க்கவும்.",
+        adv_high: "சிறந்த நிலைமைகள்! கணிக்கப்பட்ட மகசூல் அதிகமாக உள்ளது.",
+        adv_normal: "நிலைமைகள் சீராக உள்ளன. மகசூல் சராசரியாக இருக்கும் என எதிர்பார்க்கப்படுகிறது.",
+    }
+};

@@ -1,0 +1,21 @@
+Model Performance Metrics
+=========================
+
+Model: XGBoost
+  RMSE: 225.53
+  MAE: 178.97
+  R2 Score: 0.9558
+  Accuracy (within 10%): 98.9%
+------------------------------
+Model: MLP
+  RMSE: 779.19
+  MAE: 579.17
+  R2 Score: 0.4723
+  Accuracy (within 10%): 65.4%
+------------------------------
+Model: Ensemble (Opt)
+  RMSE: 218.42
+  MAE: 173.89
+  R2 Score: 0.9585
+  Accuracy (within 10%): 99.1%
+------------------------------
